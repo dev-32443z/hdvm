@@ -1,10 +1,13 @@
 # Hunger Data Visualization Map
 
+Live: https://hdvm.vercel.app/
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Development](#development)
 - [Usage](#usage)
 
 ## Introduction
@@ -31,8 +34,10 @@ Make sure you have the following installed:
     ```
 
 
-## Usage
-1. Obtain an access token from Mapbox by signing up on their website.
+## Development
+To run this app on your local environment:
+
+1. Obtain an access token from Mapbox by signing up on their website. Create your own mapbox style.
 2. Create a file named `.env` in the root directory of the project.
 3. Add the following contents to your `.env` file:
     ```
@@ -46,6 +51,10 @@ Make sure you have the following installed:
     npm start
     ```
 6. Open your browser and navigate to `http://localhost:3000` to see the hunger data visualization map.
+
+
+## Usage
+To use the deployed app, go to the following link: https://hdvm-sdar.vercel.app/
 
 
 
