@@ -8,6 +8,8 @@ Demo:
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies](#technologies)
+- [Design](#design)
+- [Data](#data)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Development](#development)
@@ -23,6 +25,20 @@ The following technologies are used in this project:
 - Map Rendering: [Mapbox + Leaflet](https://react-leaflet.js.org/)
 - Deployment: [Vercel](https://vercel.com/)
 
+## Design
+- The Following is a demo of the POC design used as inspiration for this project: [Design Demo](https://www.figma.com/proto/MRoSIBb5sB4H6kTGlFJGO0/Untitled?type=design&node-id=2-60&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A60)
+
+- Additionally, the PDF version can be found locally in this repo with the name ```Design.pdf```
+
+## Data
+- Country information from https://api.hungermapdata.org/v2/info/country was used to get data to set the coloring and pop up values
+- Data from https://datahub.io/core/geo-countries was used as geojson to created shapes. Since this repo contains all country data, a function 
+was made to parse through countries in Africa.
+- The country percentage value ```country.malnutrition.chronic_percent``` was used to color the map with the following rules:
+    - Green: low level chronic malnutrition rates
+    - Yellow: medium level chronic malnutrition rates
+    - Red: high level chronic malnutrition rates
+- These percentages were also used to determine the color opacity as well
 
 ## Requirements
 Make sure you have the following installed:
@@ -70,7 +86,7 @@ Alternatively, you can run this project locally using Docker. After setting your
 4. Open your browser and navigate to `http://localhost:3000` to see the hunger data visualization map running from docker
 
 ## Usage
-To use the deployed app, go to the following link: https://hdvm-sdar.vercel.app/
+To use the deployed app, go to the following link: https://hdvm.vercel.app/
 
 
 
