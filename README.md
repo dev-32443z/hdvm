@@ -8,6 +8,7 @@ Live: https://hdvm.vercel.app/
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Development](#development)
+- [Docker](#docker)
 - [Usage](#usage)
 
 ## Introduction
@@ -52,6 +53,18 @@ To run this app on your local environment:
     ```
 6. Open your browser and navigate to `http://localhost:3000` to see the hunger data visualization map.
 
+## Docker
+Alternatively, you can run this project locally using Docker. After setting your .env variables:
+1. [Download Docker](https://docs.docker.com/get-docker/) and make sure that it is running on your machine
+2. Build the docker image containing the application:
+   ```
+   docker build -t <image-name> .
+   ```
+3. Run the docker image:
+   ```
+   docker run -p 3000:3000 <image-name>
+   ```
+4. Open your browser and navigate to `http://localhost:3000` to see the hunger data visualization map running from docker
 
 ## Usage
 To use the deployed app, go to the following link: https://hdvm-sdar.vercel.app/
