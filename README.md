@@ -1,4 +1,4 @@
-# Hunger Data Visualization Map POC (Proof of Concept)
+# Food Security Data Visualization Map POC (Proof of Concept)
 
 Live: https://hdvm.vercel.app/
 
@@ -17,7 +17,7 @@ Demo:
 - [Usage](#usage)
 
 ## Introduction
-This project is a hunger data visualization map proof of concept that displays food security information for various countries in Africa. 
+This project is a food security data visualization map proof of concept that displays food security information for various countries in Africa. 
 
 ## Technologies
 The following technologies are used in this project:
