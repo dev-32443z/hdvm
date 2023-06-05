@@ -45,9 +45,7 @@ Make sure you have the following installed:
     ```
     npm start
     ```
-6. Open your browser and navigate to `http://localhost:3000` to see the hunger data visualization map. It should look like the following:
-
-
+6. Open your browser and navigate to `http://localhost:3000` to see the hunger data visualization map.
 
 
 
